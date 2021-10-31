@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
         }
         else
         {
-            if(otp.length()==6 && otp.equals("123456"))
+            if(otp.length()==6 && otp.equals("943505"))
             {
                 Toast.makeText(this, "Valid OTP ", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(this,MainPage.class);
